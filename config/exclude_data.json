@@ -1,0 +1,113 @@
+{
+    "obol" : {
+        "user_bool": true,
+        "topic_bool": false,
+        "category_bool": false,
+        "users" : [
+            {
+                "username" : "obol-admin",
+                "user_id": 1
+            },
+            {
+                "username" : "Obol-Association",
+                "user_id": 146 
+            },
+            {
+                "username" : "Toma-ObolAssoc",
+                "user_id": 3
+            },
+            {
+                "username" : "Leo-ObolAssoc",
+                "user_id": 216
+            }
+        ],
+        "topics" : [],
+        "category_ids": []
+    },
+    "scroll" : {
+        "user_bool": true,
+        "topic_bool": false,
+        "category_bool": false,
+        "users" : [
+            {
+                "username" : "eugene",
+                "user_id": 3
+            },
+            {
+                "username" : "chrislemanade",
+                "user_id": 1 
+            },
+            {
+                "username" : "emjlin",
+                "user_id": 235
+            },
+            {
+                "username" : "gabriellamena",
+                "user_id": 302
+            },
+            {
+                "username" : "haichen",
+                "user_id": 289
+            },
+            {
+                "username" : "Jamilya",
+                "user_id": 245
+            },
+            {
+                "username" : "Joey",
+                "user_id": 414
+            },
+            {
+                "username" : "Juansito",
+                "user_id": 112
+            },
+            {
+                "username" : "Meng",
+                "user_id": 6
+            },
+            {
+                "username" : "ming",
+                "user_id": 4
+            },
+            {
+                "username" : "mmjahanara",
+                "user_id": 276
+            },
+            {
+                "username" : "nunocgoncalves",
+                "user_id": 277
+            },
+            {
+                "username" : "roylou",
+                "user_id": 240
+            },
+            {
+                "username" : "thegaram33",
+                "user_id": 241
+            },
+            {
+                "username" : "zhengqi",
+                "user_id": 5
+            }
+        ],
+        "topics" : [],
+        "category_ids": []
+    },
+    "TEMPLATE" : {
+        "user_bool": false,
+        "topic_bool": false,
+        "category_bool": false,
+        "users" : [
+            {
+                "username" : "USERNAME_A",
+                "user_id": 1
+            },
+            {
+                "username" : "USERNAME_B",
+                "user_id": 2
+            }
+        ],
+        "topics" : [1111, 1112],
+        "category_ids": [1, 2]
+    }
+}
