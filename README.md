@@ -9,13 +9,13 @@ This repo is intended for external parties to validate the logic and calculation
 
 ## Installation
   1. Clone the repository:
-    git clone [[repository-url]]
+    git clone {repository-url}
     cd public-audit
   
-  2. Install dependencies
+  3. Install dependencies
     poetry update
   
-  3. Deploy FastAPI:
+  4. Deploy FastAPI:
     poetry run uvicorn main:app 
 
 
