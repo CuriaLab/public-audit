@@ -9,35 +9,51 @@ This repo is intended for external parties to validate the logic and calculation
 
 ## Installation
   1. Clone the repository:
+  ```bash
     git clone {repository-url}
     cd public-audit
+  ```
   
-  3. Install dependencies
+  2. Install dependencies
+  ```bash
     poetry update
+  ```
   
-  4. Deploy FastAPI:
+  3. Deploy FastAPI:
+  ```bash
     poetry run uvicorn main:app 
-
+  ```
 
 
 ## Usage
-  After deploying FastAPI, the url in which the instance will be hosted at
-  will be shown within the terminal.
+After deploying FastAPI, the url in which the instance will be hosted at
+will be shown within the terminal.
     - By default, this will be hosted at (http://127.0.0.1:8000)
 
-  You can access the API by simply using cURL or copy-pasting the URL + desired
-  endpoint and DAO within Postman or a browser.
+You can access the API by simply using cURL or copy-pasting the URL + desired
+endpoint and DAO within Postman or a browser.
   
 ### Get raw data
-"{fast_api_url}/{dao}/data/raw"
-
+```bash
+{fast_api_url}/{dao}/data/raw
+```
 
 ### Get formatted data
-"{fast_api_url}/{dao}/data/format"
-
+```bash
+{fast_api_url}/{dao}/data/format
+```
 
 ### Get forum score
-"{fast_api_url}/{dao}/metrics/forum_score"
+```bash
+{fast_api_url}/{dao}/metrics/forum_score
+```
+
+
+## Project Structure
+- `/config`: DAO configs + data to exclude when calculating forum metrics
+- `/discourse`: Retrieve, format, and filter the raw data pulled from a DAO's forum discourse api
+- `/metrics`: Forum metrics, including calculation logic
+
 
 
 ## License
